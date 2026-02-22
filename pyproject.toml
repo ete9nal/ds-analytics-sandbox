@@ -15,7 +15,8 @@ dependencies = [
     "lxml (>=6.0.2,<7.0.0)",
     "beautifulsoup4 (>=4.14.3,<5.0.0)",
     "seaborn (>=0.13.2,<0.14.0)",
-    "html5lib (>=1.1,<2.0)"
+    "html5lib (>=1.1,<2.0)",
+    "scikit-learn (>=1.8.0,<2.0.0)"
 ]
 
 
