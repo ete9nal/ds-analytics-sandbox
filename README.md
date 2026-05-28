@@ -1,40 +1,42 @@
-# Data Science & Relational Database Analytics Sandbox
+# Deep Learning, Machine Learning Engineering & SQL Analytics Sandbox
 
-This repository contains a comprehensive suite of data engineering, exploratory data analysis (EDA), and database management tasks. It demonstrates practical skills in schema design, automated data pipeline engineering, relational database querying, and data analysis using Python and Jupyter Notebooks.
-
----
-
-## 📁 Repository Structure & Technical Breakdown
-
-### 1. Relational Database & Business Intelligence (`PostgreSQL / SQLite`)
-This core architecture demonstrates the ability to design, populate, and query scalable relational databases.
-*   **`create_db.sql`** — Database Schema Architecture. Defines the complete relational model, tables, data types, constraints, and relational integrity (`PRIMARY KEY`, `FOREIGN KEY`).
-*   **`seed.py`** — Automated ETL Pipeline. A Python automation script that programmatically connects to the database and utilizes `Faker` to generate and insert thousands of structured test records.
-*   **`main.py`** — Database Orchestration Script. Handles active database sessions, connection pooling, and error-free execution of programmatic SQL operations.
-*   **`select.sql`** — Business Intelligence Query Suite. Contains complex analytical SQL production queries executing multi-table **`JOIN`** operations, aggregations (**`SUM`**, **`AVG`**, **`COUNT`**), and metric filtering using **`GROUP BY`** and **`HAVING`**.
-
-### 2. Exploratory Data Analysis & Manipulation (`Jupyter Notebooks`)
-These notebooks contain end-to-end data pipelines focused on loading, cleaning, transforming, and visualizing datasets.
-*   **Data Analysis with Pandas:** Deep utilization of the **Pandas** library for structured data processing, handling missing values, filtering dataframes, and performing custom transformations using analytical functions.
-*   **Relational Operations & Joining:** Advanced data merging techniques, mapping relationships across multiple datasets, and structured schema alignment.
-*   **Exploratory Data Analysis (EDA) & Visualization:** Statistical analysis of variables, identifying trends, patterns, and anomalies in data using plotting libraries (**Matplotlib / Seaborn**) to generate insightful charts.
+This repository serves as an advanced production-ready portfolio showcasing end-to-end capabilities in Deep Learning architecture, Classical Machine Learning algorithms built from scratch, Natural Language Processing (NLP), and Complex Relational Database Engineering. 
 
 ---
 
-## 🚀 Key Implemented Concepts
+## 📁 Repository Structure & Deep Technical Guide
 
-*   **Data Engineering:** Designing normalized tables, implementing indexing concepts, and handling relational database integrity.
-*   **Data Manipulation & Transformation:** Feature engineering, text data cleaning, type casting, and filtering using high-performance Pandas workflows.
-*   **Analytical Querying:** Authoring optimized SQL queries to answer critical data-driven business questions.
-*   **Data Storytelling:** Translating raw database records and unstructured components into visual charts that highlight business trends.
+### 🔹 Module 1: Deep Learning & Computer Vision
+* **`1_mlp_backpropagation_from_scratch.ipynb`** — **Neural Networks from Scratch.** Full mathematical implementation of a Multi-Layer Perceptron (MLP) using NumPy. Features explicit forward propagation, custom activation derivatives, and manually coded **backpropagation** algorithms for gradient descent optimization.
+* **`2_mnist_digit_classification.ipynb`** — **Deep Learning Core.** Architecture of fully-connected deep neural networks for MNIST handwritten digit recognition. Includes implementation of Softmax layers, Cross-Entropy loss computation, and iterative batch optimization loops.
+* **`4_cnn_computer_vision.ipynb`** — **Computer Vision (CNN).** Implementation of Convolutional Neural Networks for image features extraction. Showcases explicit usage of convolutional layers, spatial downsampling via **MaxPooling**, and structural flattening for dense classification.
+
+### 🔹 Module 2: Classical Machine Learning & NLP
+* **`3_nlp_tfidf_text_classification.ipynb`** — **Natural Language Processing (NLP).** Text analytics pipeline focused on tokenization, lexical normalization, and text embedding vectorization using **TF-IDF**. Features document classification and semantic categorization workflows.
+* **`5_linear_and_logistic_regression_from_scratch.ipynb`** — **Mathematical Modeling from Scratch.** Explicit implementation of Linear and Logistic Regression frameworks using NumPy. Features vectorized gradient descent execution, custom loss function optimization, and binary classification log-odds transformations.
+* **`6_model_regularization_and_tuning.ipynb`** — **Model Optimization & Validation.** Practical framework for combating overfitting using Ridge and Lasso regularization techniques. Includes residual analysis, hyperparameter tuning, and advanced model evaluation using MSE, RMSE, and R² metrics.
+
+### 🔹 Module 3: Relational Data Engineering & BI (`SQL / PostgreSQL`)
+* **`create_db.sql`** — **Database Schema Architecture.** Full relational database design with complex tables modeling, strict type-casting, and relational integrity constraints (`PRIMARY KEY`, `FOREIGN KEY`).
+* **`seed.py`** — **Automated ETL Automation.** A high-performance database population pipeline utilizing the `Faker` library to programmatically generate and inject thousands of structured, production-ready records.
+* **`main.py`** — **Database Session Manager.** Core orchestration script handling secure connection pooling, transactional operations, and exception wrappers.
+* **`select.sql`** — **Business Intelligence (BI) Query Suite.** Advanced analytical script collection executing multi-table **`JOIN`** operations, aggregations (`SUM`, `AVG`, `COUNT`), and conditional filtering utilizing **`GROUP BY`** and **`HAVING`** clauses.
 
 ---
 
-## 🛠️ Tech Stack & Analytical Tools
+## 🚀 Core Technical Competencies Demonstrated
 
-- **Programming Language:** Python
-- **Data Analysis & Manipulation:** Pandas, NumPy
+* **Algorithmic Rigor:** Explicitly scripting backpropagation, gradient calculation, and regression optimization loops without relying on abstract high-level libraries.
+* **Model Optimization:** Diagnosing machine learning system behaviors, implementing regularization penalties, and tuning hyperparameters to prevent variance issues.
+* **Natural Language Processing (NLP):** Engineering text preprocessing pipelines, constructing high-dimensional feature spaces, and performing document clustering/classification.
+* **Data Platform Architecture:** Building solid relational database foundations, structural normalization, and optimizing heavy analytical query scripts.
+
+---
+
+## 🛠️ Tech Stack & Advanced Tools
+
+- **Programming Languages:** Python, SQL
+- **Deep Learning & ML:** Applied Neural Networks, Regression Analysis, Regularization (Lasso/Ridge), NumPy
+- **Natural Language Processing:** TF-IDF Vectorization, Text Tokenization
 - **Database Engineering:** SQL, PostgreSQL, SQLite
-- **Data Visualization:** Matplotlib, Seaborn
-- **Development Environment:** Jupyter Notebook, VS Code, Git, GitHub
-- **Automation Libraries:** Faker
+- **Environments & Automation:** Jupyter Notebook, Google Colab, VS Code, Git, GitHub, Faker
