@@ -7,14 +7,14 @@ This repository serves as an advanced production-ready portfolio showcasing end-
 ## 📁 Repository Structure & Deep Technical Guide
 
 ### 🔹 Module 1: Deep Learning & Computer Vision
-* **`1_mlp_backpropagation_from_scratch.ipynb`** — **Neural Networks from Scratch.** Full mathematical implementation of a Multi-Layer Perceptron (MLP) using NumPy. Features explicit forward propagation, custom activation derivatives, and manually coded **backpropagation** algorithms for gradient descent optimization.
-* **`2_mnist_digit_classification.ipynb`** — **Deep Learning Core.** Architecture of fully-connected deep neural networks for MNIST handwritten digit recognition. Includes implementation of Softmax layers, Cross-Entropy loss computation, and iterative batch optimization loops.
-* **`4_cnn_computer_vision.ipynb`** — **Computer Vision (CNN).** Implementation of Convolutional Neural Networks for image features extraction. Showcases explicit usage of convolutional layers, spatial downsampling via **MaxPooling**, and structural flattening for dense classification.
+* **`notebooks/1_mlp_backpropagation_from_scratch.ipynb`** — **Neural Networks from Scratch.** Full mathematical implementation of a Multi-Layer Perceptron (MLP) using NumPy. Features explicit forward propagation, custom activation derivatives, and manually coded **backpropagation** algorithms for gradient descent optimization.
+* **`notebooks/2_mnist_digit_classification.ipynb`** — **Deep Learning Core.** Architecture of fully-connected deep neural networks for MNIST handwritten digit recognition. Includes implementation of Softmax layers, Cross-Entropy loss computation, and iterative batch optimization loops.
+* **`notebooks/4_cnn_computer_vision.ipynb`** — **Computer Vision (CNN).** Implementation of Convolutional Neural Networks for image features extraction. Showcases explicit usage of convolutional layers, spatial downsampling via **MaxPooling**, and structural flattening for dense classification.
 
 ### 🔹 Module 2: Classical Machine Learning & NLP
-* **`3_nlp_tfidf_text_classification.ipynb`** — **Natural Language Processing (NLP).** Text analytics pipeline focused on tokenization, lexical normalization, and text embedding vectorization using **TF-IDF**. Features document classification and semantic categorization workflows.
-* **`5_linear_and_logistic_regression_from_scratch.ipynb`** — **Mathematical Modeling from Scratch.** Explicit implementation of Linear and Logistic Regression frameworks using NumPy. Features vectorized gradient descent execution, custom loss function optimization, and binary classification log-odds transformations.
-* **`6_model_regularization_and_tuning.ipynb`** — **Model Optimization & Validation.** Practical framework for combating overfitting using Ridge and Lasso regularization techniques. Includes residual analysis, hyperparameter tuning, and advanced model evaluation using MSE, RMSE, and R² metrics.
+* **`notebooks/3_nlp_tfidf_text_classification.ipynb`** — **Natural Language Processing (NLP).** Text analytics pipeline focused on tokenization, lexical normalization, and text embedding vectorization using **TF-IDF**. Features document classification and semantic categorization workflows.
+* **`notebooks/5_linear_and_logistic_regression_from_scratch.ipynb`** — **Mathematical Modeling from Scratch.** Explicit implementation of Linear and Logistic Regression frameworks using NumPy. Features vectorized gradient descent execution, custom loss function optimization, and binary classification log-odds transformations.
+* **`notebooks/6_model_regularization_and_tuning.ipynb`** — **Model Optimization & Validation.** Practical framework for combating overfitting using Ridge and Lasso regularization techniques. Includes residual analysis, hyperparameter tuning, and advanced model evaluation using MSE, RMSE, and R² metrics.
 
 ### 🔹 Module 3: Relational Data Engineering & BI (`SQL / PostgreSQL`)
 * **`create_db.sql`** — **Database Schema Architecture.** Full relational database design with complex tables modeling, strict type-casting, and relational integrity constraints (`PRIMARY KEY`, `FOREIGN KEY`).
